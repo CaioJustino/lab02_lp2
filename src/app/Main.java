@@ -12,12 +12,12 @@ public class Main {
 		ServicoDaConta se = new ServicoDaConta();
 		
 		while (statusDoPrograma) {		
-			System.out.println("\n   __   _  _   ____ ___ _____ \r\n"
-					+ "  / /_ | || | | __ )_ _|_   _|\r\n"
-					+ " | '_ \\| || |_|  _ \\| |  | |  \r\n"
-					+ " | (_) |__   _| |_) | |  | |  \r\n"
-					+ "  \\___/   |_| |____/___| |_|  \r\n"
-					+ "                              ");
+			System.out.println("\n  ____                           __   _  _   ____  _ _       \r\n"
+					+ " | __ )  __ _ _ __   ___ ___    / /_ | || | | __ )(_) |_ ___ \r\n"
+					+ " |  _ \\ / _` | '_ \\ / __/ _ \\  | '_ \\| || |_|  _ \\| | __/ __|\r\n"
+					+ " | |_) | (_| | | | | (_| (_) | | (_) |__   _| |_) | | |_\\__ \\\r\n"
+					+ " |____/ \\__,_|_| |_|\\___\\___/   \\___/   |_| |____/|_|\\__|___/\r\n"
+					+ "                                                             ");
 
 	        System.out.println("\nBem-vind@ ao Gestor de Contas!\nDigite o número da função que deseja executar:");
 	        System.out.println(" 1 | Criar Conta\n 2 | Realizar Depósito\n 3 | Realizar Saque"
